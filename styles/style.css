@@ -162,6 +162,10 @@
   text-decoration: none;
 }
 
+.events__more:hover {
+  color: #1f69c9;
+}
+
 .events__cover {
   flex-grow: 1;
   flex-shrink: 0;
@@ -253,7 +257,7 @@
   color: #fff;
 }
 
-.staff__list {
+.staff__cards {
   padding: 0;
   list-style-type: none;
   max-width: 760px;
@@ -440,6 +444,10 @@
   text-decoration: none;
   display: flex;
   justify-content: space-between;
+}
+
+.footer__column-link:hover {
+  color: #1f69c9;
 }
 
 .footer__social-icon {
