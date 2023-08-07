@@ -42,6 +42,10 @@
   font-weight: bold;
 }
 
+.nav__link:hover {
+  color: #1f69c9;
+}
+
 .header__title {
   max-width: 601px;
   font-size: 66px;
@@ -77,6 +81,10 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.header__link:hover {
+  color: #1f69c9;
 }
 
 .header__address {
@@ -398,14 +406,17 @@
 }
 
 .footer__column_content_hours {
+  margin-left: auto;
 }
 
 .footer__column_content_social {
+  margin-left: 100px;
 }
 
 .footer__logo {
-  max-width: 80px;
-  max-height: 57px;
+  width: 57px;
+  height: 80px;
+  margin-bottom: 108px;
 }
 
 .footer__list {
@@ -416,9 +427,13 @@
 }
 
 .footer__list-item {
+  margin-top: 16px;
 }
 
 .footer__column-heading {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
 
 .footer__column-link {
@@ -432,4 +447,5 @@
 }
 
 .footer__copyright {
+  margin: 0;
 }
